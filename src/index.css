@@ -1,3 +1,164 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter+Tight:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+:root {
+  font-family: "Inter Tight", sans-serif;
+  @apply bg-[#030712];
+}
+
+@layer utilities {
+  .color_0 {
+    @apply bg-white;
+  }
+  .text_0 {
+    @apply text-white;
+  }
+
+  .color_10 {
+    @apply bg-[#F9FAFB];
+  }
+  .text_10 {
+    @apply text-[#F9FAFB];
+  }
+
+  .color_20 {
+    @apply bg-[#E5E7EB];
+  }
+  .text_20 {
+    @apply text-[#E5E7EB];
+  }
+
+  .color_30 {
+    @apply bg-[#D1D5DB];
+  }
+  .text_30 {
+    @apply text-[#D1D5DB];
+  }
+
+  .color_40 {
+    @apply bg-[#AEB2BA];
+  }
+  .text_40 {
+    @apply text-[#AEB2BA];
+  }
+
+  .color_50 {
+    @apply bg-[#6B7280];
+  }
+  .text_50 {
+    @apply text-[#6B7280];
+  }
+
+  .color_60 {
+    @apply bg-[#4B5563];
+  }
+  .text_60 {
+    @apply text-[#4B5563];
+  }
+
+  .color_70 {
+    @apply bg-[##374151];
+  }
+  .text_70 {
+    @apply text-[##374151];
+  }
+
+  .color_80 {
+    @apply bg-[#1F2937];
+  }
+  .text_80 {
+    @apply text-[#1F2937];
+  }
+
+  .color_90 {
+    @apply bg-[#111827];
+  }
+  .text_90 {
+    @apply text-[#111827];
+  }
+
+  .color_100 {
+    @apply bg-[#030712];
+  }
+  .text_100 {
+    @apply text-[#030712];
+  }
+
+  .h1 {
+    @apply text-8xl font-bold;
+  }
+  .h2 {
+    @apply text-7xl font-semibold;
+  }
+  .h3 {
+    @apply text-6xl font-semibold;
+  }
+  .h4 {
+    @apply text-5xl font-semibold;
+  }
+  .h5 {
+    @apply text-4xl font-semibold;
+  }
+  .h6 {
+    @apply text-3xl font-semibold;
+  }
+
+  .p1 {
+    @apply text-2xl font-semibold;
+  }
+  .p2 {
+    @apply text-2xl font-medium;
+  }
+  .p3 {
+    @apply text-2xl font-normal;
+  }
+  .p4 {
+    @apply text-xl font-semibold;
+  }
+  .p5 {
+    @apply text-xl font-medium;
+  }
+  .p6 {
+    @apply text-xl font-normal;
+  }
+  .p7 {
+    @apply text-lg font-semibold;
+  }
+  .p8 {
+    @apply text-lg font-medium;
+  }
+  .p9 {
+    @apply text-lg font-normal;
+  }
+  .p10 {
+    @apply text-base font-semibold;
+  }
+  .p11 {
+    @apply text-base font-medium;
+  }
+  .p12 {
+    @apply text-base font-normal;
+  }
+  .p13 {
+    @apply text-sm font-semibold;
+  }
+  .p14 {
+    @apply text-sm font-medium;
+  }
+  .p15 {
+    @apply text-sm font-base;
+  }
+  .p16 {
+    @apply text-xs font-semibold;
+  }
+  .p17 {
+    @apply text-xs font-medium;
+  }
+
+  .p18 {
+    @apply text-xs font-base;
+  }
+}
