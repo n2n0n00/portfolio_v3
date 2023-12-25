@@ -106,59 +106,78 @@
     @apply text-3xl font-semibold;
   }
 
-  .p1 {
+  .p1_semibold {
     @apply text-2xl font-semibold;
   }
-  .p2 {
+  .p1_medium {
     @apply text-2xl font-medium;
   }
-  .p3 {
+  .p1_normal {
     @apply text-2xl font-normal;
   }
-  .p4 {
+  .p2-semibold {
     @apply text-xl font-semibold;
   }
-  .p5 {
+  .p2_medium {
     @apply text-xl font-medium;
   }
-  .p6 {
+  .p2_normal {
     @apply text-xl font-normal;
   }
-  .p7 {
+  .p3_semibold {
     @apply text-lg font-semibold;
   }
-  .p8 {
+  .p3_medium {
     @apply text-lg font-medium;
   }
-  .p9 {
+  .p3_normal {
     @apply text-lg font-normal;
   }
-  .p10 {
+  .p4_semibold {
     @apply text-base font-semibold;
   }
-  .p11 {
+  .p4_medium {
     @apply text-base font-medium;
   }
-  .p12 {
+  .p4_normal {
     @apply text-base font-normal;
   }
-  .p13 {
+  .p5_semibold {
     @apply text-sm font-semibold;
   }
-  .p14 {
+  .p5_medium {
     @apply text-sm font-medium;
   }
-  .p15 {
+  .p5_normal {
     @apply text-sm font-base;
   }
-  .p16 {
+  .p6_semibold {
     @apply text-xs font-semibold;
   }
-  .p17 {
+  .p6_medium {
     @apply text-xs font-medium;
   }
-
-  .p18 {
+  .p6_normal {
     @apply text-xs font-base;
+  }
+
+  .lg_btn {
+    @apply flex w-[234px] py-[24px] px-[48px] justify-center items-center gap-[12px] rounded-[100px] border-[1px] border-[#030712];
+  }
+
+  .md_btn {
+    @apply flex w-[188px] py-[16px] px-[20px] justify-center items-center gap-12px rounded-[100px] border-[1px] border-[#030712];
+  }
+
+  .sm_btn {
+    @apply flex w-[143px] py-[12px] px-[20px] justify-center items-center gap-[12px] rounded-[100px] border-[1px] border-[#030712];
+  }
+
+  .active_btn {
+    @apply inline-flex py-[12px] px-[20px] items-center gap-[12px] rounded-[100px] border-[1px] border-[#030712] bg-[#D1D5DB];
+  }
+
+  .btn {
+    @apply inline-flex py-[12px] px-[20px] items-center gap-[12px] rounded-[100px] border-[1px] border-[#AEB2BA] bg-[#F9FAFB];
   }
 }
