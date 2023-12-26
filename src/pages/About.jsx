@@ -18,18 +18,18 @@ const About = () => {
           <FaArrowRight color="black" height={24} width={24} />
         </a>
       </div>
-      <div className="flex flex-col w-full gap-4 md:w-[30%] md:flex-end md:mr-[5%]">
+      <div className="flex flex-col w-full gap-4 md:w-[30%] md:flex-end">
         <div className="flex-between flex-row md:flex-col md:gap-4">
-          <p className="p4_normal lg:p5_normal text_50">NodeJS</p>
-          <p className="p4_normal lg:p5_normal text_50">ReactJS</p>
+          <p className="p4_normal lg:p3_normal text_50">NodeJS</p>
+          <p className="p4_normal lg:p3_normal text_50">ReactJS</p>
         </div>
         <div className="flex-between flex-row md:flex-col md:gap-4">
-          <p className="p4_normal lg:p5_normal text_50">NextJS</p>
-          <p className="p4_normal lg:p5_normal text_50">Redux</p>
+          <p className="p4_normal lg:p3_normal text_50">NextJS</p>
+          <p className="p4_normal lg:p3_normal text_50">Redux</p>
         </div>
         <div className="flex-between flex-row md:flex-col md:gap-4">
-          <p className="p4_normal lg:p5_normal text_50">Javascript</p>
-          <p className="p4_normal lg:p5_normal text_50">Typescript</p>
+          <p className="p4_normal lg:p3_normal text_50">Javascript</p>
+          <p className="p4_normal lg:p3_normal text_50">Typescript</p>
         </div>
       </div>
       <div className="w-full hidden max-md:flex">
