@@ -153,7 +153,7 @@
     @apply text-xs font-medium md:text-sm;
   }
   .p5_normal {
-    @apply text-xs font-base md:text-sm;
+    @apply text-xs font-normal md:text-sm;
   }
   .p6_semibold {
     @apply text-[10px] font-semibold md:text-xs;

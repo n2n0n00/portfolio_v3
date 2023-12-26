@@ -13,7 +13,7 @@ const Projects = () => {
         </a>
       </div>
 
-      <div className="flex flex-col gap-8">
+      <div className="flex flex-col gap-8 md:gap-16">
         {ProjectList.map((item) => (
           <Work
             key={item.title}
