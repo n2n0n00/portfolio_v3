@@ -1,3 +1,3 @@
-import rightArrow from "./icons/ArrowRight.svg";
+import sportly from "./sportly.png";
 
-export { rightArrow };
+export { sportly };

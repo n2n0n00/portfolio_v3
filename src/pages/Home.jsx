@@ -1,8 +1,8 @@
-import { rightArrow } from "../assets";
+import { FaArrowRight } from "react-icons/fa6";
 
 const Home = () => {
   return (
-    <div className="py-40 px-5 flex-start flex-col gap-5 md:gap-20 lg:m-16">
+    <div className="py-10 px-5 flex-start flex-col gap-5 md:gap-20 lg:p-16">
       <div className="flex-start flex-col gap-5">
         <div>
           <p className="p1_medium text_100">Hello! I&apos;m Athena</p>
@@ -22,7 +22,7 @@ const Home = () => {
         </p>
         <a href="/" className="lg_btn w-full md:w-[234px] bg-black">
           <p className="p2_normal text-white">Let&apos;s talk</p>
-          <img src={rightArrow} />
+          <FaArrowRight color="white" height={24} width={24} />
         </a>
       </div>
     </div>
