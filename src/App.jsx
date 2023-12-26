@@ -1,9 +1,10 @@
 import React from "react";
+import Home from "./pages/Home";
 
 const App = () => {
   return (
     <div>
-      <h1 className="text-3xl font-bold underline color_0">Hello world!</h1>
+      <Home />
     </div>
   );
 };

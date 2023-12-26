@@ -6,7 +6,7 @@
 
 :root {
   font-family: "Inter Tight", sans-serif;
-  @apply bg-[#030712];
+  @apply bg-white;
 }
 
 @layer utilities {
@@ -87,90 +87,94 @@
     @apply text-[#030712];
   }
 
+  .extra-big {
+    @apply text-[115px] font-bold;
+  }
+
   .h1 {
-    @apply text-8xl font-bold;
+    @apply text-7xl font-bold md:text-8xl;
   }
   .h2 {
-    @apply text-7xl font-semibold;
+    @apply text-6xl font-semibold md:text-7xl;
   }
   .h3 {
-    @apply text-6xl font-semibold;
+    @apply text-5xl font-semibold md:text-6xl;
   }
   .h4 {
-    @apply text-5xl font-semibold;
+    @apply text-4xl font-semibold md:text-5xl;
   }
   .h5 {
-    @apply text-4xl font-semibold;
+    @apply text-3xl font-semibold md:text-4xl;
   }
   .h6 {
-    @apply text-3xl font-semibold;
+    @apply text-2xl font-semibold md:text-3xl;
   }
 
   .p1_semibold {
-    @apply text-2xl font-semibold;
+    @apply text-xl font-semibold md:text-2xl;
   }
   .p1_medium {
-    @apply text-2xl font-medium;
+    @apply text-xl font-medium md:text-2xl;
   }
   .p1_normal {
-    @apply text-2xl font-normal;
+    @apply text-xl font-normal md:text-2xl;
   }
   .p2-semibold {
-    @apply text-xl font-semibold;
+    @apply text-lg font-semibold md:text-xl;
   }
   .p2_medium {
-    @apply text-xl font-medium;
+    @apply text-lg font-medium md:text-xl;
   }
   .p2_normal {
-    @apply text-xl font-normal;
+    @apply text-lg font-normal md:text-xl;
   }
   .p3_semibold {
-    @apply text-lg font-semibold;
+    @apply text-base font-semibold md:text-lg;
   }
   .p3_medium {
-    @apply text-lg font-medium;
+    @apply text-base font-medium md:text-lg;
   }
   .p3_normal {
-    @apply text-lg font-normal;
+    @apply text-base font-normal md:text-lg;
   }
   .p4_semibold {
-    @apply text-base font-semibold;
+    @apply text-sm font-semibold md:text-base;
   }
   .p4_medium {
-    @apply text-base font-medium;
+    @apply text-sm font-medium md:text-base;
   }
   .p4_normal {
-    @apply text-base font-normal;
+    @apply text-sm font-normal md:text-base;
   }
   .p5_semibold {
-    @apply text-sm font-semibold;
+    @apply text-xs font-semibold md:text-sm;
   }
   .p5_medium {
-    @apply text-sm font-medium;
+    @apply text-xs font-medium md:text-sm;
   }
   .p5_normal {
-    @apply text-sm font-base;
+    @apply text-xs font-base md:text-sm;
   }
   .p6_semibold {
-    @apply text-xs font-semibold;
+    @apply text-[10px] font-semibold md:text-xs;
   }
   .p6_medium {
-    @apply text-xs font-medium;
+    @apply text-[10px] font-medium md:text-xs;
   }
   .p6_normal {
-    @apply text-xs font-base;
+    @apply text-[10px] font-base md:text-xs;
   }
 
   .lg_btn {
-    @apply flex w-[234px] py-[24px] px-[48px] justify-center items-center gap-[12px] rounded-[100px] border-[1px] border-[#030712];
+    @apply flex h-[60px] py-[24px] px-[48px] justify-center items-center gap-[12px] rounded-[100px] border-[1px] border-[#030712];
   }
 
   .md_btn {
-    @apply flex w-[188px] py-[16px] px-[20px] justify-center items-center gap-12px rounded-[100px] border-[1px] border-[#030712];
+    @apply flex w-[188px] h-[60px] py-[16px] px-[20px] justify-center items-center gap-12px rounded-[100px] border-[1px] border-[#030712];
   }
 
   .sm_btn {
-    @apply flex w-[143px] py-[12px] px-[20px] justify-center items-center gap-[12px] rounded-[100px] border-[1px] border-[#030712];
+    @apply flex w-[143px] h-[60px] py-[12px] px-[20px] justify-center items-center gap-[12px] rounded-[100px] border-[1px] border-[#030712];
   }
 
   .active_btn {
@@ -179,5 +183,18 @@
 
   .btn {
     @apply inline-flex py-[12px] px-[20px] items-center gap-[12px] rounded-[100px] border-[1px] border-[#AEB2BA] bg-[#F9FAFB];
+  }
+
+  .flex-center {
+    @apply flex justify-center items-center;
+  }
+  .flex-start {
+    @apply flex justify-start items-start;
+  }
+  .flex-end {
+    @apply flex justify-end items-end;
+  }
+  .flex-between {
+    @apply flex justify-between items-center;
   }
 }
